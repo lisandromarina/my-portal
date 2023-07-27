@@ -1,0 +1,13 @@
+<div class="cv-container">
+    <h2 class="title-name">Lisandro Marina</h2>
+    <h3 class="subtitle">About Me</h3>
+    <p> {{aboutMe}} </p>
+    <h3 class="subtitle">Work Experience</h3>
+    <app-work-experience *ngFor="let experience of myExperiences" [experience]='experience'
+        class="work-experience-container">
+    </app-work-experience>
+    <h3 class="subtitle">Technical knowledge</h3>
+    <ul>
+        <li *ngFor="let knowledge of technicalKnowledge">{{knowledge}}</li>
+    </ul>
+</div>
