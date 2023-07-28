@@ -50,7 +50,7 @@ export class CvComponent {
 
   technicalKnowledge: string[] = [
     'Java',
-    'Spring-Boot',
+    'Spring',
     'Hibernate',
     'SQL',
     'JavaScript',
