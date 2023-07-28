@@ -11,7 +11,7 @@ export class CvComponent {
     {
       title: '2022 - DevP — Full-Stack Developer',
       description:
-        'Currently working on assist Bw Events client in effectively managing swoogo events, facilitating quick event handling, listings, and' +
+        'Currently working on assist Bw Events client in effectively managing swoogo events, facilitating quick event handling, listings, and ' +
         'streamlined notifications across all client websites. Benefited over 400 users worldwide, ensuring their informed' +
         'participation in events',
     },
