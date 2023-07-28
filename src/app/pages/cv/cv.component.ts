@@ -63,7 +63,17 @@ export class CvComponent {
   ]
 
   aboutMe: string = 'I am a software developer with a strong expertise in frontend and backend technologies. With 5 years of ' +
-  'professional experience as a programmer, I have worked on applications with monolithic architectures and connectors. My ' +
-  'primary focus is consistently delivering excellent results in a timely manner. I have a genuine enthusiasm for learning ' +
-  'and exploring new technologies, and I actively contribute to my team by providing assistance and support to my colleagues.'
+    'professional experience as a programmer, I have worked on applications with monolithic architectures and connectors. My ' +
+    'primary focus is consistently delivering excellent results in a timely manner. I have a genuine enthusiasm for learning ' +
+    'and exploring new technologies, and I actively contribute to my team by providing assistance and support to my colleagues.'
+
+  personalProject: Experience = {
+    title: 'Mercado Licha',
+    description:
+      'Designed and developed an innovative eCommerce platform aimed at empowering social media marketers. It ' +
+      'implemented intuitive user interfaces and smooth navigation to improve the visibility and distribution of its products. ' +
+      'Leveraged experience in front-end and back-end technologies such as React and Java to create a user-friendly and ' +
+      'scalable solution. At the moment it is in beta and is in the testing process (with free hostings) to deploy it in aws in the ' +
+      'future'
+  }
 }
